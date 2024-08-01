@@ -1,0 +1,51 @@
+COMANDOS DE GIT Y GITHUB
+
+CAMBIAR EL NOMBRE DE LA RAMA MASTER A MAIN
+	git branch -m main
+
+AGREGA LOS ARCHIVOS A GRABAR EN EL SIGUIENTE COMMIT
+	git add *
+
+AGREGA LOS ARCHIVOS A GRABAR EN EL SIGUIENTE COMMIT (INCLUYENDO ARCHIVOS OCULTOS COMO .gitignore)
+	git add .
+
+CREA UN COMMIT (SACA UNA "FOTOGRAFÍA" DEL PROYECTO ACTUAL)
+	git commit -m "primer commit"
+
+AGREGA UN ORIGEN DE DATOS REMOTO DESDE GITHUB A MI PROYECTO LOCAL
+	git remote add origin git@github.com:carlosasuncion/proyecto2git.git
+
+Muestra cual es el origen remoto
+	git remote -v
+
+ENVIA EL REPOSITORIO A LA NUBE
+	git push -u origin main
+
+DESCARGA DESDE LA NUBE LOS CAMBIOS EN EL REPOSITORIO REMOTO
+	git pull origin main
+
+CREAR UN ARCHIVO
+	> archivo.py o txt...
+
+EDITAR UN ARCHIVO CON CODE
+	code archivo.py o txt...
+
+MUESTRA EL HISTORIAL DE COMMITS
+	git log
+
+CREAR O INICIALIAZAR UN REPOSITORIO VACIO
+	git init
+
+VERIFICAR LA VERSION DE PIP3 (GESTOR DE PAQUETES)
+	pip -V
+
+CREAR UN DIRECTORIO
+	mkdir nombredelacarpeta
+
+INSTALAR UN PAQUETE
+	pip3 install matplotlib (o nombre del paquete)
+
+MUESTRA LA LISTA DE LIBRERIAS INSTALADAS
+	pip3 freeze
+
+
