@@ -1,0 +1,3 @@
+Soy Carlos Asunción
+Estoy aprendiendo y pronto estaré programando full con Python
+Desde Venezuela...
