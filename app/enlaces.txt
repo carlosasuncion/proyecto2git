@@ -1,0 +1,10 @@
+INDICE DE PAQUETES DE PYTHON
+    https://pypi.org/
+
+GENERADOR DE ARCHIVO GITIGNORE
+    https://www.toptal.com/developers/gitignore
+    En el buscador colocar gitignore io
+
+
+
+

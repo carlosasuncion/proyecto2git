@@ -43,9 +43,28 @@ CREAR UN DIRECTORIO
 	mkdir nombredelacarpeta
 
 INSTALAR UN PAQUETE
-	pip3 install matplotlib (o nombre del paquete)
+	pip3 install matplotlib				(o nombre del paquete)
+	pip3 install matplotlib==3.5.0		(==número de la versión)
+	pip3 install -r requirements.txt	(instala en un solo comando todas las librerías que requiere el proyecto)
 
 MUESTRA LA LISTA DE LIBRERIAS INSTALADAS
 	pip3 freeze
+	pip3 freeze > requirements.txt	(envia la lista de librerías instaladas a un archivo de texto)
+
+VERIFICAR DONDE ESTÁ PYTHON Y PIP
+	which python3
+	which pip3
+
+INSTALAR ENTORTOS VIRTUALES EN PYTHON
+	sudo apt install -y python3-venv
+
+CREAR EL AMBIENTE EN CADA PROYECTO
+	dentro de la carpeta principal del proyecto:
+	python3 -m venv env		(PARA CREAR EL AMBIENTE)
+	source env/bin/activate	(PARA ACTIVAR EL AMBIENTE)
+	deactivate				(PARA SALIR DEL AMBIENTE)
+
+MOSTRAR EL CONTENIDO DE UN ARCHIVO DE TEXTO
+	cat nombredelarchivo.txt
 
 
